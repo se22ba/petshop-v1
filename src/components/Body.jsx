@@ -3,14 +3,17 @@ import Item from './Item'
 
 function Body() {
   return (
-    <div>
-        <h1>- Petshop Belleza con Patitas - </h1>
+    <div class="body">
+      <h1>- Petshop Belleza con Patitas - </h1>
+      <div class="items">        
         <Item producto="Abejita de tela - Cancat -" descripcion="Juguete sin sonido" precio="9500"  />
         <Item producto="Bandeja sanitaria" descripcion="Litera" precio="10600"/>
         <Item producto="Ball-e" descripcion ="rosa" precio="17270"/>
         <Item producto="Bolso Transportador" descripcion="Trasportador" precio="77580"/>
         <Item producto="Cama Animal Print" descripcion="Colchoneta" precio="87120"/>
-    </div>
+      </div>
+       </div>
+    
   )
 }
 

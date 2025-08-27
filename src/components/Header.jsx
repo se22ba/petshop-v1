@@ -4,7 +4,7 @@ import Checkout from './Checkout'
 
 function Header() {
   return (
-    <div>
+    <div class="header ">
         <Navbar/>
         <Checkout/>
 
