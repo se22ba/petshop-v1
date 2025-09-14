@@ -1,17 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { CATEGORIAS } from '../assets/data/api'
 
 function Navbar() {
   return (
-    <div class="navbar">
-        <ul>
-            <li class="nav-item"><a class="nav-link" href="">Incio</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Servicios</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Solicitar turno</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Tienda</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Contacto</a></li>
-        </ul>
-       
-    </div>
+    <nav className="navbar">
+      <ul>
+        <li className="nav-item"><Link className="nav-link" to="/">Inicio</Link></li>
+        <li className="nav-item"><Link className="nav-link" to="/">Tienda</Link></li>
+        {CATEGORIAS.map(cat => (
+          <li key={cat.id} className="nav-item">
+            <Link className="nav-link" to={`/categoria/${cat.id}`}>{cat.nombre}</Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
   )
 }
 

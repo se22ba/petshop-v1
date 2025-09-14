@@ -1,0 +1,22 @@
+[
+{ "id": "1", "titulo": "Pelota con sonido", "descripcion": "Pelota de goma con sonido", "precio": 2500, "categoria": "juguetes", "stock": 20, "imagen": "./images/pelota1.jpeg" },
+{ "id": "2", "titulo": "Rascador Torre", "descripcion": "Rascador de sisal con base de madera", "precio": 18500, "categoria": "juguetes", "stock": 8, "imagen": "./images/rascador.jpeg" },
+{ "id": "3", "titulo": "Shampoo neutro", "descripcion": "Shampoo neutro apto piel sensible", "precio": 4700, "categoria": "higiene", "stock": 15, "imagen": "./images/shampoo.jpeg" },
+{ "id": "4", "titulo": "Piedritas sanitarias premium", "descripcion": "Arena aglutinante control olores", "precio": 6200, "categoria": "higiene", "stock": 30, "imagen": "./images/piedritas.jpeg" },
+{ "id": "5", "titulo": "Transportadora rígida", "descripcion": "Transportadora de plástico resistente", "precio": 23500, "categoria": "accesorios", "stock": 12, "imagen": "./images/transportadora.jpeg" },
+{ "id": "6", "titulo": "Correa retráctil 5m", "descripcion": "Correa extensible para perros medianos", "precio": 8900, "categoria": "accesorios", "stock": 18, "imagen": "./images/correa.jpeg" },
+{ "id": "7", "titulo": "Bolsa alimento premium 15kg", "descripcion": "Alimento balanceado perros adultos", "precio": 48900, "categoria": "alimentos", "stock": 10, "imagen": "./images/alimento1.jpeg" },
+{ "id": "8", "titulo": "Alimento gatos adultos 10kg", "descripcion": "Croquetas sabor pollo", "precio": 37900, "categoria": "alimentos", "stock": 14, "imagen": "./images/alimento2.jpeg" },
+{ "id": "9", "titulo": "Cama redonda plush", "descripcion": "Cama acolchonada para perros y gatos", "precio": 16500, "categoria": "descanso", "stock": 7, "imagen": "./images/cama1.jpeg" },
+{ "id": "10", "titulo": "Colchoneta impermeable", "descripcion": "Fácil de limpiar", "precio": 14300, "categoria": "descanso", "stock": 5, "imagen": "./images/cama2.jpeg" },
+{ "id": "11", "titulo": "Hueso mordedor", "descripcion": "Hueso de goma para morder", "precio": 3100, "categoria": "juguetes", "stock": 22, "imagen": "./images/hueso.jpeg" },
+{ "id": "12", "titulo": "Pelota dental", "descripcion": "Pelota con relieve que limpia dientes", "precio": 4200, "categoria": "juguetes", "stock": 25, "imagen": "./images/pelota2.jpeg" },
+{ "id": "13", "titulo": "Peine deslanador", "descripcion": "Peine metálico para pelo suelto", "precio": 6800, "categoria": "higiene", "stock": 9, "imagen": "./images/peine.jpeg" },
+{ "id": "14", "titulo": "Perfume canino", "descripcion": "Fragancia fresca para perros", "precio": 5200, "categoria": "higiene", "stock": 13, "imagen": "./images/perfume.jpeg" },
+{ "id": "15", "titulo": "Collar luminoso LED", "descripcion": "Collar recargable para paseos nocturnos", "precio": 9900, "categoria": "accesorios", "stock": 16, "imagen": "./images/collar.jpeg" },
+{ "id": "16", "titulo": "Chaleco de abrigo", "descripcion": "Chaleco acolchado para perros pequeños", "precio": 11900, "categoria": "accesorios", "stock": 11, "imagen": "./images/chaleco.jpeg" },
+{ "id": "17", "titulo": "Snack dental 7u", "descripcion": "Snacks que ayudan a limpiar los dientes", "precio": 2500, "categoria": "alimentos", "stock": 40, "imagen": "./images/snack1.jpeg" },
+{ "id": "18", "titulo": "Snack para gatos 12u", "descripcion": "Premios sabor pescado", "precio": 3100, "categoria": "alimentos", "stock": 28, "imagen": "./images/snack2.jpeg" },
+{ "id": "19", "titulo": "Cucha iglú", "descripcion": "Refugio acolchado estilo iglú", "precio": 18900, "categoria": "descanso", "stock": 6, "imagen": "./images/cucha.jpeg" },
+{ "id": "20", "titulo": "Almohadón estampado", "descripcion": "Almohadón decorativo para mascotas", "precio": 9700, "categoria": "descanso", "stock": 9, "imagen": "./images/almohadon.jpeg" }
+]
