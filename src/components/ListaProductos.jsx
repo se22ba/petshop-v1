@@ -1,7 +1,7 @@
 import React from 'react'
-import Item from './Item'
+import Item from './Productos'
 
-function ItemLista({ productos }) {
+function ListaProductos({ productos }) {
   return (
     <div className="items">
       {productos.map((prod) => (
@@ -11,4 +11,4 @@ function ItemLista({ productos }) {
   )
 }
 
-export default ItemLista
+export default ListaProductos

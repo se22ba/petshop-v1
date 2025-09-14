@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import ItemLista from './ItemLista'
-import { obtenerProductos } from '../assets/data/api'
+import ItemLista from './ListaProductos'
+import { obtenerProductos } from '../assets/data/datosProductos'
 
-function ItemListaContenedor() {
+function Productos() {
   const { categoriaId } = useParams()
   const [cargando, setCargando] = useState(true)
   const [productos, setProductos] = useState([])
@@ -20,7 +20,7 @@ function ItemListaContenedor() {
   if (cargando) return <p>Cargando catálogo...</p>
   if (!productos.length) return <p>No hay productos en esta categoría.</p>
 
-  return <ItemLista productos={productos} />
+  return <Productos productos={productos} />
 }
 
-export default ItemListaContenedor
+export default Productos

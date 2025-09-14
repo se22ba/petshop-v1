@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { obtenerProductoPorId } from '../assets/data/api'
+import { obtenerProductoPorId } from '../assets/data/datosProductos'
 
-function ItemDetalleContenedor() {
+function DetalleProducto() {
   const { id } = useParams()
   const [cargando, setCargando] = useState(true)
   const [producto, setProducto] = useState(null)
@@ -43,4 +43,4 @@ function ItemDetalleContenedor() {
   )
 }
 
-export default ItemDetalleContenedor
+export default DetalleProducto

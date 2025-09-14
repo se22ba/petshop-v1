@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { CATEGORIAS } from '../assets/data/api'
+import { CATEGORIAS } from '../assets/data/datosProductos'
 
 function Navbar() {
   return (
