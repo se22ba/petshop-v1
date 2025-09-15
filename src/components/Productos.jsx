@@ -8,14 +8,14 @@ function Productos() {
   const [productos, setProductos] = useState([])
   const [cargado, setCargado] = useState(false)
 
-  useEffect(() => {
+  
+useEffect(() => {
     let activo = true
     obtenerProductos(categoriaId)
-      .then((data) => { if (activo) setProductos(data) })
+      .then((datos) => { if (activo) setProductos(datos) })
       .finally(() => { if (activo) setCargado(true) })
     return () => { activo = false }
   }, [categoriaId])
-
 
   if (cargado && !productos.length) return <p>No hay productos en esta categoría.</p>
 

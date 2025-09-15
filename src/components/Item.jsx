@@ -21,7 +21,7 @@ function Item({ producto }) {
     defaultValue={1}
     aria-label={`Cantidad para ${titulo}`}
   />
-  <button className="btn btn--ghost" disabled>Agregar</button>
+  <button className="btn btn--ghost" >Agregar</button>
 </div>
 
   <Link to={`/item/${id}`} className="btn btn--primary">
