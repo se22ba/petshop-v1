@@ -1,18 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { CATEGORIAS } from '../assets/data/datosProductos'
+import { NavLink } from 'react-router-dom'
+
+const base = 'nav-pill'
+const activa = ({ isActive }) => (isActive ? `${base} nav-pill--activa` : base)
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <ul>
-        <li className="nav-item"><Link className="nav-link" to="/">Inicio</Link></li>
-        <li className="nav-item"><Link className="nav-link" to="/">Tienda</Link></li>
-        {CATEGORIAS.map(cat => (
-          <li key={cat.id} className="nav-item">
-            <Link className="nav-link" to={`/categoria/${cat.id}`}>{cat.nombre}</Link>
-          </li>
-        ))}
+    <nav className="navbar-wrap">
+      <ul className="navbar-list">
+        <li><NavLink className={activa} to="/">Inicio</NavLink></li>
+        <li><NavLink className={activa} to="/tienda">Tienda</NavLink></li>
+        <li><NavLink className={activa} to="/categoria/juguetes">Juguetes</NavLink></li>
+        <li><NavLink className={activa} to="/categoria/higiene">Higiene</NavLink></li>
       </ul>
     </nav>
   )

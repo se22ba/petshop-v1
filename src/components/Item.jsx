@@ -12,7 +12,23 @@ function Item({ producto }) {
       <img src={producto.imagen} alt={producto.titulo} />
       <p>{descripcion}</p>
       <h3>$ {precio}</h3>
-      <Link to={`/item/${id}`}>Ver detalle</Link>
+       <div className="card-acciones">
+ <div className="qty">
+  <input
+    className="qty__input"
+    type="number"
+    min={1}
+    defaultValue={1}
+    aria-label={`Cantidad para ${titulo}`}
+  />
+  <button className="btn btn--ghost" disabled>Agregar</button>
+</div>
+
+  <Link to={`/item/${id}`} className="btn btn--primary">
+    Ver detalle
+  </Link>
+</div>
+       
     </article>
   )
 }
